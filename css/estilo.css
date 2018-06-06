@@ -1,7 +1,74 @@
-div {
-    border: 2px solid #CCC;
+body {
+    max-width: 850px;
+    margin: 0 auto;
+    border-right:  #808080 5px dashed;
+    border-left:  #808080 5px dashed;
+}
+
+
+
+div{
+    
+    border: 10px solid #808080;
     padding: 1em;
-    margin: 1em 0 1em 4em;
     width: 300px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-color: #808080;
+   
   }
+  .ColumnaDerecha {
+    text-align: right;
+
+}
+.anios{
+    border: 1px solid #000000;
+    padding: 1em;
+    width: 250px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+  main{
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+  }
+
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+    text-align: center;
+    font-style: solid #ffffff;
+}
+
+h3 {
+    text-decoration: underline;
+}
+p,
+ul,
+ol,
+dl,
+address {
+    font-size: 1.1em;
+}
+
+p,
+li,
+dd,
+dt,
+address {
+    line-height: 1.5;
+}
+
+
+
    
