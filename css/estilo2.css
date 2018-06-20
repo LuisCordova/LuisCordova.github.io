@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    border-right:  #808080 5px dashed;
+    border-left:  #808080 5px dashed;
+    
+}
+
+.titulo {
+    text-align: center;
+    border: 10px solid #808080;
+    padding: 1em;
+    width: 960px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-right: 100px;
+    background-color: #808080;
+}
+
+.curso{
+    text-align: left;
+    border: 10px solid #666666;
+    padding: 1em;
+    width: 300px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-right: 100px;
+    background-color: gold;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+    font-size: 1.1em;
+}
+
+p,
+li,
+dd,
+dt,
+address {
+    line-height: 1.5;
+}
